@@ -3,7 +3,7 @@ Homework 4: Chapter 8 work
 Name: Will Hall
 
  
-## Problem 1
+## Problem 1 
 
 37 #Conclusive Random Forest with Corresponding MSEs:
 
@@ -62,9 +62,9 @@ MSE = 1.776613
 332 #Training a Multiple Regression (OLS):
 
 378 #MSE for OLS Model:
-MSE = 1.012709
+MSE = 1.012709 
 
 350 #Gradient-boosted Tree vs. OLS Model MSE Results:
 
-The OLS Model actually has a lower MSE than the Gradient-boosted Tree model. This result demonstrates that more simple models should not be discounted in lieu of so many other complex instruments. Context and simple model comparisons must also play a key role in  choice.
+The OLS Model actually has a lower MSE than the Gradient-boosted Tree model. This result demonstrates that more simple models should not be discounted in lieu of so many other complex instruments. Context and simple model comparisons must also play a key role in  choice. 
 

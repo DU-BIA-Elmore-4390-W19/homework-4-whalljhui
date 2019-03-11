@@ -22,13 +22,13 @@ library(randomForest)
 library(MASS)
 library(gbm)
 theme_set(theme_bw())
+
 ```
 
 ## Problem 1
 
 Problem 7 from Chapter 8 in the text. To be specific, please use a sequence of
 `ntree` from 25 to 500 in steps of 25 and `mtry` from 3 to 9 for by 1. 
-
 
 ## Answer 1
 
@@ -130,6 +130,10 @@ p + geom_col(fill = "#6e0000") +
   coord_flip()
 ```
 
+=======
+## Answer 1
+
+>>>>>>> 0fb048fc23b65954eedcba57aa4bcd07b5c80252
 ## Problem 2
 
 Problem 8 from Chapter 8 in the text. Set your seed with 9823 and split into 
@@ -141,6 +145,7 @@ test MSE.
 2. Fit a multiple regression model to the training data and report the 
 estimated test MSE
 3. Summarize your results. 
+<<<<<<< HEAD
 
 ## Answer 2
 
@@ -194,7 +199,7 @@ rf_carseats_cv <- train(Sales ~ .,
 rf_carseats_cv
 ```
 
-#Plotted Random Forest CV
+#Plotted Random Forest CV 
 
 ```{r}
 plot(rf_carseats_cv)
@@ -348,4 +353,3 @@ mean(carseats_test_df$sq_err_gbm)
 #Gradient-boosted Tree vs. OLS Model MSE Results:
 
 The OLS Model actually has a lower MSE than the Gradient-boosted Tree model. This result demonstrates that more simple models should not be discounted in lieu of so many other complex instruments. Context and simple model comparisons must also play a key role in  choice. 
-
